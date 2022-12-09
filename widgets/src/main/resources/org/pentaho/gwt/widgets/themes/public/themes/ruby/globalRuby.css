@@ -8257,3 +8257,114 @@ body.bootstrap .modal.confirmationDialog .dialog div.body {
 .hyperlink {
   color: #7C0B2B;
 }
+
+@media screen and (max-width:1000px){
+	#csvDeckPanel>tbody>tr>td>div>table>tbody>tr {
+		display : flex;
+		flex-direction: column;
+	}
+}
+@media screen and (max-width:1120px){
+	#main_box {
+		width : calc(100vw - 220px) !important;
+	}
+}
+@media screen and (max-width:1120px) and (min-width: 680px){
+	.pentaho-dialog .button-panel{
+		width: calc(100vw - 220px) !important;
+	}
+}
+/* @media screen and (max-width:900px){
+	#csvDeckPanel>tbody>tr>td>div>table>tbody>tr>* {
+		flex:auto;
+	}
+} */
+
+@media screen and (max-width:500px){
+	#delimiterRadioGroup>tbody>tr>td>div>div>div>div>table>tbody>tr {
+		display : flex;
+		flex-direction: column;
+	}
+	.xul-fieldset {
+		height:100% !important;
+	}
+	#csvDeckPanel>tbody>tr>td>div>table>tbody>tr>td>div>table>tbody>tr>td>div>table>tbody>tr {
+		display : flex;
+		flex-direction: column;
+	}
+	#uploadedFile.xul-textbox {
+		width: 200px !important;
+	}
+
+}
+@media screen and (max-width:500px) and (min-width: 375px){
+	#uploadedFile.xul-textbox {
+		width: 200px !important;
+	}
+}
+@media screen and (max-width:590px) and (min-width: 500px){
+	#uploadedFile.xul-textbox {
+		width: calc(100vw - 300px) !important;
+	}
+}
+
+#csvDescriptionLabel{
+	word-wrap: break-word;
+	height:100% !important;
+	white-space : normal !important;
+
+}
+
+@media screen and (max-width:480px){
+	/* .pentaho-dialog .button-panel>tbody>tr>td>table>tbody>tr{
+		display : flex;
+		flex-direction: column;
+	}
+	.pentaho-dialog .button-panel>tbody>tr>td>table>tbody>tr>td{
+		width: 100%;
+		text-align : -webkit-center;
+	} */
+     .dialogMiddleCenter>div>table{
+        width:100% !important;
+        height:100% !important;
+    }
+    
+    .dialogMiddleCenter>div>table>tbody>tr:nth-child(2)>td{
+        overflow-x: auto !important;
+        display: block !important;
+        width: calc(100vw - 140px) !important;
+    }
+} 
+@media screen and (max-width:390px){
+	#otherRadio>tbody>tr {
+		display : flex;
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width:375px){
+	#encodingTypeMenuList>table {
+		width: calc(100vw - 175px) !important;
+	}
+	#encodingTypeMenuList>table>tbody>tr>td>div {
+		width: calc(100vw - 175px) !important;
+	}
+	#encodingTypeMenuList>table>tbody>tr>td>div>table>tbody>tr>td>div {
+		width: calc(100vw - 195px) !important;
+	}
+	#uploadedFile.xul-textbox {
+		width: calc(100vw - 175px) !important;
+	}
+	#datatypeMenuList>table{
+		width: calc(100vw - 175px) !important;
+	}
+	#datatypeMenuList>table>tbody>tr>td>div{
+		width: calc(100vw - 175px) !important;
+	}
+	#datatypeMenuList>table>tbody>tr>td>div>table>tbody>tr>td>div{
+		width: calc(100vw - 175px) !important;
+	}
+	#datasourceName { 
+		width: calc(100vw - 175px) !important;
+	}
+}
